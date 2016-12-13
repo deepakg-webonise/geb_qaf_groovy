@@ -1,0 +1,14 @@
+{
+  "reports": [
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/08_Dec_2016_02_55_PM/json",
+      "startTime": 1481189141619
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/08_Dec_2016_02_50_PM/json",
+      "startTime": 1481189043593
+    }
+  ]
+}

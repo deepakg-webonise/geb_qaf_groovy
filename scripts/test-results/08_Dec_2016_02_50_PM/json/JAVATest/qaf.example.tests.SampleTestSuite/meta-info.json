@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test1",
+        "sign": "SampleTestSuite.test1()[pri:0, instance:qaf.example.tests.SampleTestSuite@7ba18f1b]"
+      },
+      "dependsOn": [],
+      "startTime": 1481189047148,
+      "duration": 593,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

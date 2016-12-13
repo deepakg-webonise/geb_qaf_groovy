@@ -1,0 +1,7 @@
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	Given get '/'
+	When sendkeys 'JCPenney' to 'txt.searchbox'
+    And click on 'button.search'
+    Then verify link with partial text 'JCPenney' is present 
+END

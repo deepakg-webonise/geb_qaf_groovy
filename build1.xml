@@ -1,0 +1,5 @@
+ <project>
+      <target name="antTarget" depends="gradleTask">
+        <echo>Executing from Ant</echo>
+      </target>
+    </project

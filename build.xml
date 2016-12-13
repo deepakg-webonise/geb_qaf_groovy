@@ -108,6 +108,12 @@ For any inquiry or need additional information, please contact support-qaf@infos
 		<delete dir="${bin.dir}" failonerror="false" />
 		<delete dir="${dist.dir}" failonerror="false" />
 	</target>
+	
+	<taskdef name="groovyc" classname="org.codehaus.groovy.ant.Groovyc">
+	    <classpath>
+	        <path refid="compile.classpath"/>
+	    </classpath>
+	</taskdef>
 
 
 	<target name="compile" depends="init">
@@ -123,6 +129,9 @@ For any inquiry or need additional information, please contact support-qaf@infos
 			<classpath refid="build.classpath">
 			</classpath>
 		</iajc>
+		  <groovyc srcdir="src" destdir="bin/classes">
+		        <javac debug="on" deprecation="true"/>
+		    </groovyc>
 		<echo level="info">--- compile (finished) ---</echo>
 	</target>
 	<!-- ================================= target: build ================================= -->

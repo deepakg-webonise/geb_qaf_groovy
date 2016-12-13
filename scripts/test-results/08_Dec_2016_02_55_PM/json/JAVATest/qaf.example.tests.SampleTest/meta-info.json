@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testGoogleSearch",
+        "sign": "SampleTest.testGoogleSearch()[pri:0, instance:qaf.example.tests.SampleTest@5cdd8682]"
+      },
+      "dependsOn": [],
+      "startTime": 1481189141740,
+      "duration": 1227,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}
